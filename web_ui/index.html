@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Research System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> <!-- Added Playfair for Titles -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Landing Page Wrapper -->
+    <div id="landingPage">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="material-icons-outlined logo-icon">science</span>
+                <span class="brand-text">Opennote</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Pricing</a>
+                <a href="#">Community</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+                <a href="#">Guide</a>
+            </div>
+            <button class="nav-cta">Get started free</button>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero-section">
+            <div class="hero-content">
+                <div class="hero-illustration">
+                    <!-- Simple SVG Placeholder for Sketchy Paper Plane -->
+                    <svg width="200" height="200" viewBox="0 0 24 24" fill="none" class="sketch-icon">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M2 12c-2-2-2-6 2-10" opacity="0.3" stroke="currentColor"></path>
+                        <path d="M5 15c-2 2-2 6 2 2" opacity="0.3" stroke="currentColor"></path>
+                    </svg>
+                </div>
+                <!-- Updated Title from image -->
+                <h1 class="hero-title">The notebook that thinks<br>with you</h1>
+                <button class="hero-cta-main" id="enterAppBtn">Try for free</button>
+            </div>
+        </header>
+
+        <!-- Value Proposition Section -->
+        <section class="values-section">
+            <h2 class="section-title-landing">AI that helps you<br>understand, not just answer</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">
+                         <!-- Carabiner/Keys SVG Placeholder -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="8" y="2" width="8" height="20" rx="3"></rect>
+                            <path d="M12 18v-6"></path>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>Knows what you're working on</h3>
+                    <p>It reads what you're working on and gives relevant help. No re-explaining needed.</p>
+                </div>
+                 <div class="value-item">
+                    <div class="value-icon">
+                         <!-- Magic Hat SVG Placeholder -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 18h20"></path>
+                            <path d="M12 2l-8 16h16L12 2z"></path>
+                            <path d="M12 12l2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3>Helps as you go</h3>
+                    <p>Clarifies confusing parts, suggests what to explore next, and keeps you moving.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section class="community-section">
+            <h2 class="section-title-landing">Learn together, go<br>further</h2>
+             <div class="community-grid">
+                <div class="comm-item">
+                     <span class="material-icons-outlined comm-icon">book</span>
+                    <h3>Share journals instantly</h3>
+                    <p>Publish to your community with one click.</p>
+                </div>
+                <div class="comm-item">
+                     <span class="material-icons-outlined comm-icon">chat</span>
+                    <h3>Discuss and build on ideas</h3>
+                    <p>Comment, ask questions, and collaborate.</p>
+                </div>
+                <div class="comm-item">
+                     <span class="material-icons-outlined comm-icon">star</span>
+                    <h3>Join communities</h3>
+                    <p>Find groups for classes, projects, or shared interests.</p>
+                </div>
+            </div>
+            <button class="secondary-cta">Explore communities</button>
+            
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <blockquote>"I've never learned this well. Feynman explains things better than my textbook."</blockquote>
+                <cite>Rémi, Engineering student</cite>
+            </div>
+        </section>
+
+         <!-- Features Section (Vertical Stack) -->
+        <section class="features-section">
+            <h2 class="section-title-landing">Stop juggling five<br>different apps</h2>
+            <div class="feature-stack">
+                <div class="feature-card blue">
+                    <div class="feature-icon"><span class="material-icons-outlined">edit_note</span></div>
+                    <h3>Notes</h3>
+                    <p>A rich editor for capturing and organizing your work.</p>
+                </div>
+                <div class="feature-card yellow">
+                    <div class="feature-icon"><span class="material-icons-outlined">smart_toy</span></div>
+                    <h3>AI Chat</h3>
+                    <p>Ask questions, explore ideas, get clear explanations.</p>
+                </div>
+                <div class="feature-card beige">
+                    <div class="feature-icon"><span class="material-icons-outlined">mic</span></div>
+                    <h3>Recorder</h3>
+                    <p>Record audio or paste a YouTube link. Get instant notes and summaries.</p>
+                </div>
+                 <div class="feature-card pink">
+                    <div class="feature-icon"><span class="material-icons-outlined">school</span></div>
+                    <h3>Tutorials</h3>
+                    <p>Generate videos, diagrams, and visual explanations for any concept.</p>
+                </div>
+                 <div class="feature-card green">
+                    <div class="feature-icon"><span class="material-icons-outlined">quiz</span></div>
+                    <h3>Practice tools</h3>
+                    <p>Create active flashcards and quizzes instantly.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom CTA -->
+        <section class="bottom-cta">
+            <div class="cta-content">
+                <h2>Your ideas deserve<br>better tools</h2>
+                <p>No matter what you're learning, Opennote is where it all comes together.</p>
+                <button class="hero-cta-main dark">Try for free</button>
+            </div>
+            <div class="cta-image">
+                <!-- Placeholder for group illustration -->
+                <svg width="300" height="200" viewBox="0 0 300 150" fill="none" stroke="currentColor">
+                    <circle cx="50" cy="50" r="20"></circle>
+                    <path d="M30 90c0-20 40-20 40 0"></path>
+                    <circle cx="120" cy="60" r="20"></circle>
+                    <path d="M100 100c0-20 40-20 40 0"></path>
+                     <circle cx="190" cy="50" r="20"></circle>
+                    <path d="M170 90c0-20 40-20 40 0"></path>
+                    <path d="M220 30l10 10m-5-15l-10 20" stroke="currentColor"></path>
+                </svg>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-links">
+                <div class="col">
+                    <a href="#">Our Mission</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Community</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Invite and Earn!</a>
+                </div>
+                <div class="col">
+                     <a href="#">Blog</a>
+                     <a href="#">Privacy Policy</a>
+                     <a href="#">Terms of Usage</a>
+                     <a href="#">Cookie Policy</a>
+                     <a href="#">Contact Us</a>
+                </div>
+            </div>
+             <div class="social-links">
+                <!-- Icons placeholder -->
+                <span>IG</span>
+                <span>YT</span>
+                <span>X</span>
+                <span>LI</span>
+            </div>
+        </footer>
+    </div> <!-- End Landing Page -->
+
+    <!-- App Container (Hidden by default) -->
+    <section class="app-wrapper" id="appInterface" style="display: none;">
+        <div class="app-container">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <div class="logo-area">
+                        <span class="material-icons-outlined logo-icon">science</span>
+                        <span class="logo-text">Research Note</span>
+                    </div>
+                     <!-- Back to Home using a link for now -->
+                    <a href="#" id="backToHomeBtn" style="margin-left:auto; text-decoration:none; color: inherit;">
+                        <span class="material-icons-outlined">home</span>
+                    </a>
+                </div>
+                
+                <div class="sources-section">
+                    <div class="section-title">SOURCED CONTENT</div>
+                    <div class="source-list">
+                        <div class="source-item">
+                            <span class="material-icons-outlined source-icon">description</span>
+                            <span class="source-name">Global AI Trends 2024.pdf</span>
+                        </div>
+                        <div class="source-item">
+                            <span class="material-icons-outlined source-icon">link</span>
+                            <span class="source-name">Wiki: Transformers</span>
+                        </div>
+                        <div class="source-item">
+                            <span class="material-icons-outlined source-icon">article</span>
+                            <span class="source-name">Research logic.txt</span>
+                        </div>
+                    </div>
+                    <button class="add-source-btn">
+                        <span class="material-icons-outlined">add_circle_outline</span>
+                        Add Source
+                    </button>
+                </div>
+
+                <div class="nav-menu">
+                    <div class="menu-item active">
+                        <span class="material-icons-outlined">chat_bubble_outline</span>
+                        Chat
+                    </div>
+                    <div class="menu-item">
+                        <span class="material-icons-outlined">push_pin</span>
+                        Saved Notes
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <header class="chat-header">
+                    <h1 class="notebook-title">Project: Advanced Architectures</h1>
+                    <div class="header-actions">
+                        <div class="api-key-group">
+                            <div class="api-key-container">
+                                <span class="api-status" id="geminiStatus">Checking...</span>
+                                <input type="password" id="geminiKeyInput" placeholder="Gemini API Key (AIza...)" class="api-key-input">
+                                <button id="saveGeminiBtn" class="icon-btn" title="Save Gemini Key"><span class="material-icons-outlined">save</span></button>
+                            </div>
+                            <div class="api-key-container">
+                                <span class="api-status" id="openaiStatus">Checking...</span>
+                                <input type="password" id="openaiKeyInput" placeholder="OpenAI API Key (sk-...)" class="api-key-input">
+                                <button id="saveOpenaiBtn" class="icon-btn" title="Save OpenAI Key"><span class="material-icons-outlined">save</span></button>
+                            </div>
+                            <div class="api-key-container">
+                                <span class="api-status" id="tavilyStatus">Checking...</span>
+                                <input type="password" id="tavilyKeyInput" placeholder="Tavily API Key (tvly-...)" class="api-key-input">
+                                <button id="saveTavilyBtn" class="icon-btn" title="Save Tavily Key"><span class="material-icons-outlined">save</span></button>
+                            </div>
+                        </div>
+                        <button class="icon-btn"><span class="material-icons-outlined">share</span></button>
+                        <button class="icon-btn"><span class="material-icons-outlined">more_vert</span></button>
+                    </div>
+                </header>
+
+                <div class="chat-area" id="chatArea">
+                    <!-- Welcome / Empty State -->
+                    <div class="empty-state">
+                        <div class="empty-icon-wrapper">
+                            <span class="material-icons-outlined">auto_awesome</span>
+                        </div>
+                        <h2>How can I help you research today?</h2>
+                        <p>Ask questions based on your sources, or generate summaries.</p>
+                    </div>
+                    
+                    <!-- Chat messages will be injected here -->
+                </div>
+
+                <div class="input-area-wrapper">
+                    <div class="input-container">
+                        <input type="file" id="imageInput" accept="image/*" style="display:none">
+                        <button class="attach-btn" id="imageUploadBtn" title="Add attachment">
+                            <span class="material-icons-outlined">add_circle</span>
+                        </button>
+                        <textarea id="userInput" placeholder="Ask a question or type '/' for commands..." rows="1"></textarea>
+                        <button class="send-btn" id="sendBtn" disabled>
+                            <span class="material-icons-outlined">arrow_upward</span>
+                        </button>
+                    </div>
+                    <div class="disclaimer">
+                        AI may display inaccurate info, including about people, so double-check its responses.
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

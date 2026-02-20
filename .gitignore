@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.DS_Store
+.vscode/
+.env
+uv.lock
+# Keep the built-in gitignore if needed, but root-level should cover it.
+web_ui/node_modules/
+web_ui/dist/
